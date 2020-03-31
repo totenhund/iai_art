@@ -34,7 +34,7 @@ class TrueArt:
 
     # Reference standard
     def create_reference(self):
-        input_img = Image.open('3.jpg')
+        input_img = Image.open('1.jpg')
         self.original = input_img.resize((512, 512), Image.ANTIALIAS)
         self.pix = self.original.load()
 
